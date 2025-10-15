@@ -1,0 +1,55 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aqua;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  justify-self: center;
+  width: 1300px;
+  height: 500px;
+}
+
+.productcard {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  width: 400px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.shoes {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-self: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+.productinfo {
+  margin-left: 30px;
+  width: 270px;
+}
+.productinfo h3 {
+  margin: 0px;
+} 
+
+.productinfo h4 {
+  color: rgb(140, 143, 146);
+}
+.plussign {
+  width: 100px;
+}
+.plussign img{
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+.productdetails {
+  display: flex;
+  justify-content: space-between;
+}
